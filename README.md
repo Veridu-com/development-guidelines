@@ -26,7 +26,6 @@
     - Functions:  **camelBack**
     - Constants:  **UPPER_CASE**
 
-
 - **Line break: Unix LF**
 
 - **No spaces before LF**
@@ -149,6 +148,12 @@ while (op1 && !(op2 && op3)) {
     - Java
     - Python
 
+
+## Suggestions (most of the suggestions are just personal, but it is good if you use it)
+    - Line length (120 characters)
+    - Function length (40 lines)
+    - Fonts: Hack, Fira Mono, Consolas, Inconsolata, Source Code Pro
+
 ## Java specific suggestions:
     - On Eclipse, go to Preferences > Java > Editor > Save actions and select:
     - Organize imports
@@ -160,11 +165,6 @@ while (op1 && !(op2 && op3)) {
     - Use parentheses in expressions always
     - On the unnecessary code tab:
     - Remove unused imports should be checked.
-
-## Suggestions (most of the suggestions are just personal, but it is good if you use it)
-    - Line length (120 characters)
-    - Function length (40 lines)
-    - Fonts: Hack, Fira Mono, Consolas, Inconsolata, Source Code Pro
 
 ## Optimizations
 -   Avoid micro-optimizations
