@@ -200,8 +200,9 @@ while (op1 && !(op2 && op3)) {
 * Build Boilerplates (Cássio, Flávio, Rafa)
 ````php
     $member = array(
-        flavio,
-        cassio, 
+        cassio,
+        hakan,
+        flavio, 
         rafa
     );
     caue::watch(member);
