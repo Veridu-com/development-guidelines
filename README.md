@@ -154,6 +154,27 @@ while (op1 && !(op2 && op3)) {
     - Function length (40 lines)
     - Fonts: Hack, Fira Mono, Consolas, Inconsolata, Source Code Pro
 
+## VIM suggestions:
+    - Use the following for your .vimrc (this uses 4 spaces instead of tabs):
+
+    :set expandtab
+    :set tabstop=4
+    :set shiftwidth=4
+    :set nu
+    :set si
+
+    " auto go back to last pos:
+    if has("autocmd")
+      au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+    endif
+    
+    - To retab your document, transforming tabs into spaces issue the command :retab
+
+
+
+## Python specific suggestions:
+    - Never, ever, ever do something like `from somewhere import *`. If you do that, there's no way to be sure what is getting imported and tools such as pylint become useless.
+
 ## Java specific suggestions:
     - On Eclipse, go to Preferences > Java > Editor > Save actions and select:
     - Organize imports
