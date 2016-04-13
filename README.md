@@ -201,7 +201,6 @@ while (op1 && !(op2 && op3)) {
 ````php
     $member = array(
         cassio,
-        hakan,
         flavio, 
         rafa
     );
