@@ -176,6 +176,9 @@ while (op1 && !(op2 && op3)) {
 
 - Never, ever, ever do something like `from somewhere import *`. If you do that, there's no way to be sure what is getting imported and tools such as pylint become useless.
 - If using SublimeText, install the [SublimeLinter package](http://sublimelinter.readthedocs.org/en/latest/installation.html) and then the [SublimeLinter-pylint](https://github.com/SublimeLinter/SublimeLinter-pylint) plugin.
+- Variable and function names should use camelCase convention
+- Class names should use CapCase convetion
+- Module and package names should use all lowercase, preferably without underscores.
 
 ## Java specific suggestions:
     - On Eclipse, go to Preferences > Java > Editor > Save actions and select:
