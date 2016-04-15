@@ -175,7 +175,7 @@ while (op1 && !(op2 && op3)) {
 ## Python specific suggestions:
 
 - Never, ever, ever do something like `from somewhere import *`. If you do that, there's no way to be sure what is getting imported and tools such as pylint become useless.
-
+- If using SublimeText, install the [SublimeLinter package](http://sublimelinter.readthedocs.org/en/latest/installation.html) and then the [SublimeLinter-pylint](https://github.com/SublimeLinter/SublimeLinter-pylint) plugin.
 
 ## Java specific suggestions:
     - On Eclipse, go to Preferences > Java > Editor > Save actions and select:
