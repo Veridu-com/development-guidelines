@@ -91,14 +91,14 @@ do {
 ````
 
 ````javascript
-// While statement 
+// While statement
 while (op1 && !(op2 && op3)) {
     //  code
 }
 ````
 
 ````javascript
-// Ternary statement 
+// Ternary statement
 
 // Can do
     y = x.isValid() ? x.getValue() : -1;
@@ -110,12 +110,12 @@ while (op1 && !(op2 && op3)) {
 ````
 
 - Comments
- 
+
 ````javascript
  // This is the right way to do a comment
  //Don't comment like this
 
-// JavaDoc standard 
+// JavaDoc standard
 /**
  * Description of the function
  * One space before and after the asterisk
@@ -167,7 +167,7 @@ while (op1 && !(op2 && op3)) {
     if has("autocmd")
       au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
     endif
-    
+
     - To retab your document, transforming tabs into spaces issue the command :retab
 
 
@@ -187,6 +187,8 @@ while (op1 && !(op2 && op3)) {
 
 ## Java specific suggestions:
     - On Eclipse, go to Preferences > Java > Editor > Save actions and select:
+    - Tick "Perform selected actions on save"
+    - Format source code: format all lines
     - Organize imports
     - Activate additional actions and click Configure:
     - Check remove trailing whitespace on all lines
@@ -196,6 +198,8 @@ while (op1 && !(op2 && op3)) {
     - Use parentheses in expressions always
     - On the unnecessary code tab:
     - Remove unused imports should be checked.
+    - On the Java > Code Style > Formatter menu, click import and import the `formatter-eclipse.xml` file attached on this project. On the active profile select "My Own".
+    - Hit apply and OK. You're set.
 
 ## Optimizations
 -   Avoid micro-optimizations
@@ -232,7 +236,7 @@ while (op1 && !(op2 && op3)) {
 ````php
     $member = array(
         cassio,
-        flavio, 
+        flavio,
         rafa
     );
     caue::watch(member);
