@@ -1,26 +1,26 @@
 # Developing the Development Guide for Developers
 
 - Development
-    - [Coding Standard](Standard.md)
-    - [Project Boilerplates](Boilerplate.md)
+    - [Coding Standard](Development/Standard.md)
+    - [Project Boilerplates](Development/Boilerplate.md)
     - Languages
-        - [PHP](languages/php)
-        - [Javascript](languages/javascript)
-        - [Java](languages/java)
-        - [Python](languages/python)
+        - [PHP](Development/languages/php)
+        - [Javascript](Development/languages/javascript)
+        - [Java](Development/languages/java)
+        - [Python](Development/languages/python)
     - Editors
-        - [Eclipse](editors/eclipse)
-        - [SublimeText](editors/sublimetext)
-        - [VIM](editors/vim)
-    - [Optimizations](Optimizations.md)
-    - [General Suggestions](Suggestions.md)
+        - [Eclipse](Development/editors/eclipse)
+        - [SublimeText](Development/editors/sublimetext)
+        - [VIM](Development/editors/vim)
+    - [Optimizations](Development/Optimizations.md)
+    - [General Suggestions](Development/Suggestions.md)
 - Deployment
-    - [GIT](GIT.md)
-    - [Documentation](Documentation.md)
-    - [Unit Tests](UnitTests.md)
-    - [Code Review](CodeReview.md)
-    - [Continuous Integration](ContinuousIntegration.md)
-    - [Deploy](Deploy.md)
+    - [GIT](Deployment/GIT.md)
+    - [Documentation](Deployment/Documentation.md)
+    - [Unit Tests](Deployment/UnitTests.md)
+    - [Code Review](Deployment/CodeReview.md)
+    - [Continuous Integration](Deployment/ContinuousIntegration.md)
+    - [Deploy](Deployment/Deploy.md)
 
 ## Actions
 
