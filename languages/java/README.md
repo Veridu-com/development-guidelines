@@ -1,11 +1,15 @@
 # Suggestions:
-- On Eclipse, go to Preferences > Java > Editor > Save actions and select:
-- Organize imports
-- Activate additional actions and click Configure:
-- Check remove trailing whitespace on all lines
-- Correct indentation
-- On the code style tab, mark:
-- Use blocks in if/while/for/do statements only if necessary
-- Use parentheses in expressions always
-- On the unnecessary code tab:
-- Remove unused imports should be checked.
+- On Eclipse, go to Preferences > Java > Editor > Save actions and:
+ - Tick "Perform selected actions on save"
+ - Format source code: format all lines
+ - Organize imports
+ - Activate additional actions and click Configure:
+ - Check remove trailing whitespace on all lines
+ - Correct indentation
+ - On the code style tab, mark:
+ - Use blocks in if/while/for/do statements only if necessary
+ - Use parentheses in expressions always
+ - On the unnecessary code tab:
+ - Remove unused imports should be checked.
+ - On the Java > Code Style > Formatter menu, click import and import the `formatter-eclipse.xml` file attached on this project. On the active profile select "My Own".
+ - Hit apply and OK. You're set.
