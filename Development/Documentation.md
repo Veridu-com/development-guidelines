@@ -1,7 +1,7 @@
 # Documentation
 
 ## Internal
-You MUST NOT document simple macros or functions, be as smart about your documentation as you are about your code.
+You SHOULD NOT document simple macros or functions, be as smart about your documentation as you are about your code.
 
 Usually method/function documentation in terms of **parameters** and **return** values, along with a **short description** are often good enough.
 

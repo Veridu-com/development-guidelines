@@ -1,7 +1,10 @@
 # Developing the Development Guide for Developers
 
 - Development
+    - [GIT](Development/GIT.md)
     - [Coding Standard](Development/Standard.md)
+    - [Documentation](Development/Documentation.md)
+    - [Unit Tests](Development/UnitTests.md)
     - [Project Boilerplates](Development/Boilerplate.md)
     - Languages
         - [PHP](Development/languages/php)
@@ -12,12 +15,10 @@
         - [Eclipse](Development/editors/eclipse)
         - [SublimeText](Development/editors/sublimetext)
         - [VIM](Development/editors/vim)
+    - [Software Version](Development/SoftwareVersion.md)
     - [Optimizations](Development/Optimizations.md)
     - [General Suggestions](Development/Suggestions.md)
 - Deployment
-    - [GIT](Deployment/GIT.md)
-    - [Documentation](Deployment/Documentation.md)
-    - [Unit Tests](Deployment/UnitTests.md)
     - [Code Review](Deployment/CodeReview.md)
     - [Continuous Integration](Deployment/ContinuousIntegration.md)
     - [Deploy](Deployment/Deploy.md)
