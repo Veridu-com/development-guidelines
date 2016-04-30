@@ -15,7 +15,7 @@
     - [Optimizations](Optimizations.md)
     - [General Suggestions](Suggestions.md)
 - Deployment
-    - [GIT](git.md)
+    - [GIT](GIT.md)
     - [Documentation](Documentation.md)
     - [Unit Tests](UnitTests.md)
     - [Code Review](CodeReview.md)
