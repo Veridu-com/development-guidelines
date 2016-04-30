@@ -1,0 +1,11 @@
+# Suggestions:
+- On Eclipse, go to Preferences > Java > Editor > Save actions and select:
+- Organize imports
+- Activate additional actions and click Configure:
+- Check remove trailing whitespace on all lines
+- Correct indentation
+- On the code style tab, mark:
+- Use blocks in if/while/for/do statements only if necessary
+- Use parentheses in expressions always
+- On the unnecessary code tab:
+- Remove unused imports should be checked.

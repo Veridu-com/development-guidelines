@@ -1,0 +1,11 @@
+# Suggestions:
+- Never, ever, ever do something like `from somewhere import *`. If you do that, there's no way to be sure what is getting imported and tools such as pylint become useless.
+- You should install [pylint](https://www.pylint.org/) on your system.
+- A file with metadata information about how checks are done can be generated with `pylint --generate-rcfile > ~/.pylintrc`
+- That file can be edited to change the regular expressions for how variable names, function names, etc, are verified.
+- I've had limited success with that...
+- If using SublimeText, install the [SublimeLinter package](http://sublimelinter.readthedocs.org/en/latest/installation.html) and then the [SublimeLinter-pylint](https://github.com/SublimeLinter/SublimeLinter-pylint) plugin.
+- Python naming conventions:
+- Variable and function names should use camelCase convention
+- Class names should use CapCase convetion
+- Module and package names should use all lowercase, preferably without underscores.
