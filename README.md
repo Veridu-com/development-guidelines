@@ -143,10 +143,15 @@ while (op1 && !(op2 && op3)) {
     - Composer + NPM
 
 ## Language
-- PHP
-- Javascript
-- Java
-- Python
+- [PHP](languages/php)
+- [Javascript](languages/javascript)
+- [Java](languages/java)
+- [Python](languages/python)
+
+## Editor
+- [Eclipse](editors/eclipse)
+- [SublimeText](editors/sublimetext)
+- [VIM](editors/vim)
 
 ## Suggestions (most of the suggestions are just personal, but it is good if you use it)
 - Line length (120 characters)
