@@ -126,3 +126,6 @@ while (op1 && !(op2 && op3)) {
  }
 
 ```
+
+## Failures
+Ensure that your code fails gracefully in unexpected situations and it reports the issue on log files.

@@ -1,19 +1,26 @@
 # Developing the Development Guide for Developers
 
-- [Coding Standard](Standard.md)
-- [Project Boilerplates](Boilerplate.md)
-- Languages
-    - [PHP](languages/php)
-    - [Javascript](languages/javascript)
-    - [Java](languages/java)
-    - [Python](languages/python)
-- Editors
-    - [Eclipse](editors/eclipse)
-    - [SublimeText](editors/sublimetext)
-    - [VIM](editors/vim)
-- [Optimizations](Optimizations.md)
-- [General Suggestions](Suggestions.md)
-
+- Development
+    - [Coding Standard](Standard.md)
+    - [Project Boilerplates](Boilerplate.md)
+    - Languages
+        - [PHP](languages/php)
+        - [Javascript](languages/javascript)
+        - [Java](languages/java)
+        - [Python](languages/python)
+    - Editors
+        - [Eclipse](editors/eclipse)
+        - [SublimeText](editors/sublimetext)
+        - [VIM](editors/vim)
+    - [Optimizations](Optimizations.md)
+    - [General Suggestions](Suggestions.md)
+- Deployment
+    - [GIT](git.md)
+    - [Documentation](Documentation.md)
+    - [Unit Tests](UnitTests.md)
+    - [Code Review](CodeReview.md)
+    - [Continuous Integration](ContinuousIntegration.md)
+    - [Deploy](Deploy.md)
 
 ## Actions
 

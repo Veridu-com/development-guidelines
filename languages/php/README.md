@@ -1,8 +1,9 @@
 # Suggestions:
 - If using SublimeText, install the [SublimeLinter package](http://www.sublimelinter.com/en/latest/) and then:
- * [PHP Linter](https://github.com/SublimeLinter/SublimeLinter-php)
- * [PHP CodeSniffer](https://github.com/SublimeLinter/SublimeLinter-phpcs)
- * [PHP MessDetector](https://github.com/SublimeLinter/SublimeLinter-phpmd)
+    - [PHP Linter](https://github.com/SublimeLinter/SublimeLinter-php)
+    - [PHP CodeSniffer](https://github.com/SublimeLinter/SublimeLinter-phpcs)
+    - [PHP MessDetector](https://github.com/SublimeLinter/SublimeLinter-phpmd)
+- For unit testing, rely on [PHP Unit](https://github.com/sebastianbergmann/phpunit)
 
 ## PHP Linter Configuration
 ```json
