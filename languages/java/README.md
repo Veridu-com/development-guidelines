@@ -11,5 +11,5 @@
  - Use parentheses in expressions always
  - On the unnecessary code tab:
  - Remove unused imports should be checked.
- - On the Java > Code Style > Formatter menu, click import and import the `formatter-eclipse.xml` file attached on this project. On the active profile select "My Own".
+ - On the Java > Code Style > Formatter menu, click import and import the `formatter-eclipse.xml` file attached on this project (it is under `editors/eclipse`). On the active profile select "My Own".
  - Hit apply and OK. You're set.
