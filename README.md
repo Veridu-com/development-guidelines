@@ -1,6 +1,7 @@
 # Developing the Development Guide for Developers
 
 - Development
+    - [First Steps](Development/FirstSteps.md)
     - [GIT](Development/GIT.md)
     - [Coding Standard](Development/Standard.md)
     - [Documentation](Development/Documentation.md)
