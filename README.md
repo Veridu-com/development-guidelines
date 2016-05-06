@@ -39,25 +39,19 @@ DONE, noun:
     - [Continuous Integration](Deployment/ContinuousIntegration.md)
     - [Deploy](Deployment/Deploy.md)
 
-## Actions
+## Owners
 
-* Search for Linters (JSLint, PyLint, PHPCS, JAVA?)
+These are the list of people you should reach out to items related to languages or processes.
 
-* PR Ranking
+- Languages
+    - Java: Cássio
+    - Javascript: Rafael
+    - PHP: Flávio
+    - Python: Cássio & Håkan
+- Code Review:
+    - Front-end: Flávio & Rafael
+    - Back-end: Flávio & Rafael
+    - Models: Cássio & Håkan
+- Deploy: Flávio
 
-* How to (Atom, Sublime, Eclipse, VIM, NetBeans)
-
-* Each member of the team will search for particularities of his area
-
-
-* Build Boilerplates (Cássio, Flávio, Rafa)
-```php
-    $member = array(
-        cassio,
-        flavio,
-        rafa
-    );
-    caue::watch(member);
-```
-* Flávio
-    * Code review
+Bear in mind that as part of the engineering team, we are all owners of every and each project, so if you spotted anything you think should be different (a bug, a security issue, code not following standards etc), either open an issue, fix it or talk to whoever is responsible for the project.
