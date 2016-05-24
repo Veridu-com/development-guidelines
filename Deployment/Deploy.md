@@ -1,4 +1,7 @@
 # Deploy
+
+Deploys will only happen on the second Thursday of the current sprint.
+
 The deploy process itself is automated based on a few simple steps:
 
 - Clone project's upstream repository
