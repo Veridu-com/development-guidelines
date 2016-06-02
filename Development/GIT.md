@@ -24,3 +24,60 @@ Add a new article (`NewArticle.md`) to the [Development Guideline](https://bitbu
 - You should **always** sync your repository (`git pull upstream master`) with upstream before pushing changes to be sure your changes are compatible with the latest work available.
 - Project settings (except for the ones that should be consistent between dev/prod environments) must not be added to code repository and instead should be be distributed as `.dist` files, including documentation for each entry and possible different syntaxes whenever applicable.
 - `.gitignore` files should ensure that log files, core dump files, backup files, editor/IDE files, build binaries and whatever else that shouldn't be part of the code repository is properly ignored from git tracking.
+
+# Repository Setup
+
+## BitBucket
+
+### Access Management
+
+Go to `Repository Settings` (e.g. https://bitbucket.org/veridu/scoringreports/admin/access), under **General**, click on *Access management* (e.g. https://bitbucket.org/veridu/scoringreports/admin/access).
+
+#### Users
+
+Ensure you remove yourself as an admin (change group access before removing yourself).
+
+#### Groups
+
+Ensure the following access policies according to your project audience:
+
+- Backend
+    - Administrators: `ADMIN`
+    - Back-End: `READ`
+    - Front-End: `READ`
+    - Operations: `READ`
+    - Scoring: `READ`
+- Frontend
+    - Administrators: `ADMIN`
+    - Front-End: `READ`
+    - Operations: `READ`
+- Scoring
+    - Administrators: `ADMIN`
+    - Operations: `READ`
+    - Scoring: `READ`
+
+### Webhooks
+
+Go to `Repository Settings` (e.g. https://bitbucket.org/veridu/development-guidelines/admin), under **Integrations**, click on *Webhooks* (e.g. https://bitbucket.org/veridu/development-guidelines/admin/addon/admin/bitbucket-webhooks/bb-webhooks-repo-admin).
+
+#### Slack
+
+- Title: `Slack`
+- URL: `***REMOVED***`
+- Status: `Active`
+- Triggers: `Choose from a full list of triggers`
+    - Pull Request: `Created` and `Merged`
+
+## GitHub
+
+### Webhooks
+
+Go to `Repository Settings` (e.g. https://github.com/veridu/veridu-php/settings), on the left menu, click on *Webhooks & services* (e.g. https://github.com/veridu/veridu-php/settings/hooks).
+
+#### Slack
+
+- Payload URL: `***REMOVED***`
+- Content type: `application/json`
+- Secret: empty
+- Which events would you like to trigger this webhook?: `Let me select individual events.`
+    - `Pull request`
