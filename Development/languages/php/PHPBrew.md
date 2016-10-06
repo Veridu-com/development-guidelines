@@ -45,6 +45,12 @@ phpbrew extension install xdebug
 phpbrew extension install pthreads
 ```
 
+## Mac OS (the not-so-correct-but-fine OS)
+MongoDB extension will fail unless you specify the openssl directory.
+```
+phpbrew extension install mongodb -- --with-openssl-dir=/usr/local/Cellar/openssl/1.0.2j/
+```
+
 # Compiling PHP 5 with XDebug
 ## General
 ```
@@ -78,6 +84,12 @@ phpbrew extension install mongodb
 phpbrew extension install gearman
 phpbrew extension install xdebug
 phpbrew extension install pthreads
+```
+
+## Mac OS (the not-so-correct-but-fine OS)
+MongoDB extension will fail unless you specify the openssl directory.
+```
+phpbrew extension install mongodb -- --with-openssl-dir=/usr/local/Cellar/openssl/1.0.2j/
 ```
 
 # Configuring XDebug for Remote Debugging
