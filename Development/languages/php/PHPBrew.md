@@ -1,23 +1,31 @@
-## Installing PHPBrew:
+# Installing PHPBrew:
 - Install [PHPBrew requirements](https://github.com/phpbrew/phpbrew/wiki/Requirement) for your OS
 - Install PHPBrew
 ```
 curl -L -O https://github.com/phpbrew/phpbrew/raw/master/phpbrew
 chmod +x phpbrew
 
-# Move phpbrew to somewhere can be found by your $PATH
+## Move phpbrew to somewhere can be found by your $PATH
 sudo mv phpbrew /usr/bin/phpbrew
 ```
 
-## Compiling PHP 7 with XDebug
+# Compiling PHP 7 with XDebug
+## General
 ```
-# General
 phpbrew install --name 7.0.11 7.0.11 +default +pdo +pgsql +mbstring +openssl +gmp +opcache
 phpbrew install --name 7.0.11-zts 7.0.11 +default +pdo +pgsql +mbstring +openssl +gmp +opcache +zts
+```
 
-# Fedora (the correct OS)
+## Fedora (the correct OS)
+```
 phpbrew install --name 7.0.11 7.0.11 +default +pdo +pgsql +mbstring +openssl +gmp +opcache \-- --with-libdir=/lib64
 phpbrew install --name 7.0.11-zts 7.0.11 +default +pdo +pgsql +mbstring +openssl +gmp +opcache +zts \-- --with-libdir=/lib64
+```
+
+## Mac OS (the not-so-correct-but-fine OS)
+```
+phpbrew install --name 7.0.11 7.0.11 +default +pdo +pgsql +mbstring +openssl=/usr/local/Cellar/openssl/1.0.2j/ +gmp +opcache
+phpbrew install --name 7.0.11-zts 7.0.11 +default +pdo +pgsql +mbstring +openssl=/usr/local/Cellar/openssl/1.0.2j/ +gmp +opcache +zts
 ```
 
 # Installing PHP 7 Extensions
@@ -36,18 +44,25 @@ phpbrew extension install xdebug
 phpbrew extension install pthreads
 ```
 
-## Compiling PHP 5 with XDebug
+# Compiling PHP 5 with XDebug
+## General
 ```
-# General
 phpbrew install --name 5.6.26 5.6.26 +default +pdo +pgsql +mbstring +openssl +gmp +opcache
 phpbrew install --name 5.6.26-zts 5.6.26 +default +pdo +pgsql +mbstring +openssl +gmp +opcache +zts
 
-# Fedora (the correct OS)
+## Fedora (the correct OS)
+```
 phpbrew install --name 5.6.26 5.6.26 +default +pdo +pgsql +mbstring +openssl +gmp +opcache \-- --with-libdir=/lib64
 phpbrew install --name 5.6.26-zts 5.6.26 +default +pdo +pgsql +mbstring +openssl +gmp +opcache +zts \-- --with-libdir=/lib64
 ```
 
-# Installing PHP 7 Extensions
+## Mac OS (the not-so-correct-but-fine OS)
+```
+phpbrew install --name 5.6.26 5.6.26 +default +pdo +pgsql +mbstring +openssl=/usr/local/Cellar/openssl/1.0.2j/ +gmp +opcache
+phpbrew install --name 5.6.26-zts 5.6.26 +default +pdo +pgsql +mbstring +openssl=/usr/local/Cellar/openssl/1.0.2j/ +gmp +opcache +zts
+```
+
+# Installing PHP 5 Extensions
 ```
 phpbrew use 5.6.26
 phpbrew extension install iconv
@@ -63,7 +78,7 @@ phpbrew extension install xdebug
 phpbrew extension install pthreads
 ```
 
-## Configuring XDebug for Remote Debugging
+# Configuring XDebug for Remote Debugging
 - Edit your xdebug.ini (usually located in ~/.phpbrew/php/<php-version>/var/db/xdebug.ini) and add:
 ```
 xdebug.remote_enable=1
