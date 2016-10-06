@@ -4,8 +4,9 @@
 ```
 curl -L -O https://github.com/phpbrew/phpbrew/raw/master/phpbrew
 chmod +x phpbrew
-
-## Move phpbrew to somewhere can be found by your $PATH
+§``
+- Move phpbrew to somewhere can be found by your $PATH
+```
 sudo mv phpbrew /usr/bin/phpbrew
 ```
 
@@ -49,6 +50,7 @@ phpbrew extension install pthreads
 ```
 phpbrew install --name 5.6.26 5.6.26 +default +pdo +pgsql +mbstring +openssl +gmp +opcache
 phpbrew install --name 5.6.26-zts 5.6.26 +default +pdo +pgsql +mbstring +openssl +gmp +opcache +zts
+```
 
 ## Fedora (the correct OS)
 ```
