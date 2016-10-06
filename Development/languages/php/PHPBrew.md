@@ -4,7 +4,7 @@
 ```
 curl -L -O https://github.com/phpbrew/phpbrew/raw/master/phpbrew
 chmod +x phpbrew
-§``
+```
 - Move phpbrew to somewhere can be found by your $PATH
 ```
 sudo mv phpbrew /usr/bin/phpbrew
